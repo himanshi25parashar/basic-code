@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(images\ \(3\).jpg);
+    background-position: center;
+    background-size: cover;
+    padding-right: 3%;
+    padding-left: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+.header{
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 80px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 40px;
+}
+.header nav {
+    flex: 1;
+    padding-left: 450px;
+}
+.header nav ul li{
+    display: inline;
+    list-style: none;
+    margin: 0 15px;
+}
+.header nav ul li a{
+    text-decoration: none;
+    color: rgb(53, 27, 112);
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 15px ;
+}
+#butt1 {
+    text-transform: uppercase;
+   cursor: pointer;
+   border-radius: 30px;
+   border: 2px solid black;
+   margin: 30px;
+   font-size: 14px;
+   font-weight: 700;
+   padding: 5px;
+   box-shadow: 1px 4px 5px;
+   color: white;
+   background-color: rgb(53, 27, 112);
+}
+#butt2 {
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 30px;
+    border: 2px solid black;
+    margin: 14px;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 4px;
+    box-shadow: 1px 4px 5px;
+    color: rgb(53, 27, 112);)
+}
+.butt:hover{
+    transform: scale(1.1);
+    transition: .2s ease-in-out;
+}
+.contain{
+    display: flex;
+    position: relative;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.contain .text{
+    position: relative;
+    max-width: 600px;
+}
+.contain .text h1{
+    text-transform: uppercase;
+    font-weight: 800;
+    color: rgb(53, 27, 112);
+    line-height: 1.5em;
+    letter-spacing: .1em;
+    margin-top: 80px;
+    font-size: 40px;
+}
+.contain .text h1 span{
+    font-size: 60px;
+}
+.contain .text p{
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: .1em;
+    margin-top: 40px;
+    color: black;
+}
+.b3{ margin-top: 60px;
+    margin-left: 140px;
+    padding: 15px 30px;
+    cursor: pointer;
+    border-radius:40px ;
+    font-size: 15px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    color:black;
+}
+.b3:hover{
+    transform: scale(1.1);
+    transition: .2s ease-in-out;   
+}
+.pepsi{
+    display: flex;
+    position: absolute;
+    height: 100%;
+    width: 600px;
+    margin-top: 80px;
+    padding-left: 500px;
+    justify-content: flex-end;
+
+
+
+    
+}
